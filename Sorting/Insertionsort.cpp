@@ -16,7 +16,7 @@ cout<<endl;
     {
         swap(arr[j],arr[j-1]);
         j--;
-    }
+    } 
     
     }
     cout<<"Sorted array : ";
