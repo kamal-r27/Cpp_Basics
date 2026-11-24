@@ -26,7 +26,7 @@ while(low <= high) {
 low=0;
 high=pivot;
 int idx=-1;
-//LOOP FROM LOW TO TE PIVOT ELEMENT 
+//LOOP FROM LOW TO THE PIVOT ELEMENT 
  while(low<=high){
   int mid=(high+low)/2;
 

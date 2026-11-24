@@ -22,7 +22,7 @@ int main() {
     int high = n - 1;
     bool found = false;
     while(low <= high) {
-        int mid = high+low / 2;
+        int mid =( high+low )/ 2;
         if(v[mid] == target) {
             cout << "The index of the target element is " << mid;
             found = true;

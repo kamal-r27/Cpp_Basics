@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-int arr[]={0,1,2,3,5,8};
+int arr[]={0,1,2,3,5,6};
 int n=sizeof(arr)/4;
 int low=0;
 int high=n-1;

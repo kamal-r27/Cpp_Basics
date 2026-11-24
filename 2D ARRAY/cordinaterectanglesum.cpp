@@ -8,18 +8,19 @@ int main(){
     cout<<"Enter the columns:";
     cin>>m;
     int a[n][m];
-  for (int i = 0;i<n;i++){                 
-    for (int j = 0;j<m;j++){          
-        cin>>a[i][j];
-    }
-  
- } 
- for (int i = 0;i<n;i++){                 
-    for (int j = 0;j<m;j++){          
-       cout<<a[i][j]<<" ";
-    }
-     cout<<endl;
-}
+    cout<<"Enter the elements of the Matrix row wise :";
+    for (int i = 0;i<n;i++){                 
+         for (int j = 0;j<m;j++){          
+             cin>>a[i][j];
+           }
+         }
+    for (int i = 0;i<n;i++){                 
+         for (int j = 0;j<m;j++){          
+             cout<<a[i][j]<<" ";
+            }
+    cout<<endl;
+         }
+       
  int l1, r1, l2, r2;
  cout<<"Enter the first coordinate : ";
  cin>>l1;

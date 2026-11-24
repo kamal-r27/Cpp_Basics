@@ -20,7 +20,7 @@ int main(){
     }
      
         }
-if(flag){
+if(flag=true){
     cout<<"Duplicates are present..";
     }
   else{

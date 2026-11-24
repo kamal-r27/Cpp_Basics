@@ -30,7 +30,7 @@ int main() {
         }
     }
 
-    if (palindrome) {
+    if (palindrome=true) {
         cout << "Array is a Palindrome";
     } else {
         cout << "Array is not a Palindrome";

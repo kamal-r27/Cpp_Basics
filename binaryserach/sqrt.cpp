@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
 long long x;
-cout<<"Enter the number you want to calculate the sqrt to nearest integer :";
+cout<<"Enter the number you want to calculate the sqrt to the possible integer :";
 cin>>x;
 long long low=0,high=x,answer=0;
       while(low<=high){
@@ -16,7 +16,7 @@ long long low=0,high=x,answer=0;
         }
         else{
             low=mid+1;
-             answer=mid;
+            answer=mid;
         }
        
       }

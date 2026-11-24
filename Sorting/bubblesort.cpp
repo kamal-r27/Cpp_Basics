@@ -2,7 +2,7 @@
 using namespace std ;
 
 int main() {
-    int arr[5]={5,1,3,2,4};
+    int arr[]={5,4,3,2,1};
     int n = sizeof(arr)/4;
     cout<<"Unsorted array : ";
     for (int i =0;i<=n-1;i++){
@@ -23,4 +23,4 @@ cout<<endl;
         cout<<arr[i]<<" ";
     }
     return 0;
-}
+}   

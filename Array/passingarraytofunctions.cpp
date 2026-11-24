@@ -5,13 +5,14 @@ void change(int arr[]){  //In arrays there is pass by reference ..
     arr[1]=9;
 }
 int main(){
-int arr[3]={1,2,3};
-for(int i = 0;i<3;i++){
+int arr[]={1,2,3};
+for(int i = 0;i<sizeof(arr)/4;i++){
     cout<<arr[i]<<" ";
 }
 cout<<endl;
+
 change(arr);
-for(int i = 0;i<3;i++){
+for(int i = 0;i<sizeof(arr)/4;i++){
     cout<<arr[i]<<" ";
 }
 return 0;
