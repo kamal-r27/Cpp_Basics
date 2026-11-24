@@ -1,10 +1,8 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
-
 int main() {
-
     int x;
-    cout<<"Enter the number of rows : "<<endl;
+    cout<<"Enter the number of rows : ";
     cin>>x;
     int a=1;
     for (int i=1;i<=x;i++){
@@ -12,11 +10,9 @@ int main() {
     if((i+j)%2==0)
     cout<<a;
     else
-    cout<<"0";
-          
+    cout<<"0"; 
         }
-     
       cout<<endl;
-    } 
+    }
     return 0;
 }
